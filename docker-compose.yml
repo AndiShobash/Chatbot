@@ -1,0 +1,8 @@
+version: "3"
+services:
+  appserver:
+    container_name: server
+    hostname: localhost
+    image: andishobash/andi-chatbot:000
+    ports:
+      - "8080:8080"
